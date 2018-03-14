@@ -1,0 +1,19 @@
+In vertex shader, 3 vectors are needed to calculate the
+reflections in camera coordinates. 
+	1. Direction of light
+	2. Normal
+	3. Eye
+	
+In fragment shader
+	Use color as the ambient and diffuse material for fragment.
+	color = ambient + attenuation * spot_attenuation * diffuse
+	
+March 13 Lab
+Vertex Shader
+	Pass gl_InstanceID to fragment shader
+
+Fragment Shader
+	A. Use the material array to replace "colorVertFrag" in the light calculation
+	B. Use the instance ID from .vs to select material
+		4 materials * 5 cubes/material = 20 cubes/material
+	C. Add the specular calculation

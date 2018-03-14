@@ -1,0 +1,27 @@
+﻿Build started 2018-03-14 12:31:08 PM.
+     1>Project "C:\Users\justi_000\Documents\CSI4130\Assignments\A3\build\lit_boxes.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files\Common Files\glew-2.1.0\include" /I"C:\Program Files\Common Files\freeglut\include" /I"C:\Program Files\Common Files\FreeImage\x64" /IC:\Users\justi_000\Documents\CSI4130\Assignments\A3\..\common /IC:\Users\justi_000\Documents\CSI4130\Assignments\A3\..\glm /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"lit_boxes.dir\Debug\\" /Fd"lit_boxes.dir\Debug\vc140.pdb" /Gd /TP /errorReport:prompt ..\sphere.cpp C:\Users\justi_000\Documents\CSI4130\Assignments\A3\box_shape.cpp
+         sphere.cpp
+     1>c:\users\justi_000\documents\csi4130\assignments\a3\render_shape.h(114): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\justi_000\documents\csi4130\assignments\a3\render_shape.h(131): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\justi_000\documents\csi4130\assignments\a3\render_shape.h(162): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+     1>..\sphere.cpp(28): warning C4085: expected pragma parameter to be 'on' or 'off'
+     1>..\sphere.cpp(28): warning C4081: expected 'newline'; found ')'
+         box_shape.cpp
+     1>c:\users\justi_000\documents\csi4130\assignments\a3\render_shape.h(114): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\justi_000\documents\csi4130\assignments\a3\render_shape.h(131): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\justi_000\documents\csi4130\assignments\a3\render_shape.h(162): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\justi_000\Documents\CSI4130\Assignments\A3\build\Debug\lit_boxes.exe" /INCREMENTAL /NOLOGO opengl32.lib glu32.lib "C:\Program Files\Common Files\glew-2.1.0\lib\Release\x64\glew32.lib" "C:\Program Files\Common Files\freeglut\lib\x64\freeglut.lib" "C:\Program Files\Common Files\FreeImage\x64\FreeImage.lib" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/justi_000/Documents/CSI4130/Assignments/A3/build/Debug/lit_boxes.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/justi_000/Documents/CSI4130/Assignments/A3/build/Debug/lit_boxes.lib" /MACHINE:X64  /machine:x64 lit_boxes.dir\Debug\sphere.obj
+         lit_boxes.dir\Debug\box_shape.obj
+         lit_boxes.dir\Debug\attributes.obj
+         lit_boxes.dir\Debug\lit_boxes.obj
+         lit_boxes.dir\Debug\shader.obj
+         lit_boxes.vcxproj -> C:\Users\justi_000\Documents\CSI4130\Assignments\A3\build\Debug\lit_boxes.exe
+     1>Done Building Project "C:\Users\justi_000\Documents\CSI4130\Assignments\A3\build\lit_boxes.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.85
